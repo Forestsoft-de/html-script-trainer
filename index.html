@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mein erstes HTML Projekt</title>
+    <script>
+        function checkName() {
+            var name = prompt("Bitte gib deinen Namen ein");
+
+            document.getElementById('name').innerHTML = "Hallo " + name + "! Schön das du da bist!";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="return checkName();">Starten</button>
+    <div id="name"></div>
+</body>
+</html>
